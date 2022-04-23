@@ -17,8 +17,12 @@ public class ChromeBrowserTest {
         driver.get(baseUrl);
         String title = driver.getTitle();
         System.out.println(title);
+        System.out.println(baseUrl);
+        System.out.println(title);
+
 
         driver.close();
+        driver.quit();
 
     }
 }

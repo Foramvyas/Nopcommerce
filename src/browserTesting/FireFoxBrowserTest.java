@@ -21,8 +21,10 @@ public class FireFoxBrowserTest {
 
         String title = driver.getTitle();
         System.out.println(title);
+        System.out.println(baseUrl);
 
         driver.close();
+        driver.quit();
 
 
     }
